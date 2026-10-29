@@ -1,0 +1,50 @@
+.container{
+    padding: 1px;
+    display: flex;
+    gap: 1px;
+    background-color: aqua;
+    flex-wrap: wrap;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.items{
+ background-color: rgb(255, 187, 179);
+ height: 300px;
+ width:  calc(45% - 70px);
+ padding: 2px;
+ margin-left: 90px;
+ margin-top:20px;
+ margin-bottom: 20px;
+ border-radius: 15px;
+}
+ 
+header{
+    background-color: blue;
+    height: 60px;
+    padding:1px;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    align-content: center;
+    border-radius: 15px;
+}
+img{
+    height: 190px;
+    border-radius:7px;
+    width: 455px;
+}
+
+body{
+    background-color:rgb(241, 147, 32);
+    margin: 40px auto;
+    max-width: 1700px;
+    width: 90%;
+
+}
+footer h1{
+    background-color: greenyellow;
+    height:50px;
+    align-content: center;
+    text-align: center;
+}

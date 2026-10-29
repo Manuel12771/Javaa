@@ -1,0 +1,11 @@
+.container{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.items{
+background-color: greenyellow;
+height: 100px;
+width: calc(50% - 15px);
+}
